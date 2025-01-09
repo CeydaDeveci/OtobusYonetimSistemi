@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BiletFormu</class>
+ <widget class="QWidget" name="BiletFormu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>774</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>60</y>
+     <width>218</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="lblpng">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../Kaynaklar.qrc">:/Resimler/Bilet.png</pixmap>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lblbaslik">
+      <property name="styleSheet">
+       <string notr="true">font: 700 italic 12pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>BİLET VERİ GİRİŞ SİSTEMİ</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>130</y>
+     <width>317</width>
+     <height>166</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="lblbiletfiyati">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>BİLET FİYATI:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pbkaydet">
+        <property name="text">
+         <string>kaydet</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../Kaynaklar.qrc">
+          <normaloff>:/Resimler/Kaydet.png</normaloff>:/Resimler/Kaydet.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pbiptal">
+        <property name="text">
+         <string>iptal</string>
+        </property>
+        <property name="icon">
+         <iconset resource="../Kaynaklar.qrc">
+          <normaloff>:/Resimler/Iptal.png</normaloff>:/Resimler/Iptal.png</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="lblsefertarihi">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>SEFER TARİHİ:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="lebiletfiyati"/>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="leseferyeri"/>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="lblseferyeri">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>SEFER YERİ:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QDateTimeEdit" name="dtesefertarihi"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lekoltukno"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="lblkoltukno">
+      <property name="styleSheet">
+       <string notr="true">font: 700 10pt &quot;Segoe UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>KOLTUK NUMARASI:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2" rowspan="6">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>20</width>
+        <height>40</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Kaynaklar.qrc"/>
+ </resources>
+ <connections/>
+</ui>

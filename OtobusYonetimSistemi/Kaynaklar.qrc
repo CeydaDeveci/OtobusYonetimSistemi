@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/Resimler">
+        <file alias="Yolcu.png">Resimler/account_menu.png</file>
+        <file alias="Isletme.png">Resimler/building-edit.png</file>
+        <file>Resimler/bullet-user.png</file>
+        <file alias="Otobus.png">Resimler/bus.png</file>
+        <file alias="Iptal.png">Resimler/cancel (2).png</file>
+        <file alias="Kaydet.png">Resimler/file_save_as.png</file>
+        <file alias="Calisan.png">Resimler/group (2).png</file>
+        <file alias="Seyahat.png">Resimler/steering_wheel_common.png</file>
+        <file alias="Bilet.png">Resimler/vcard.png</file>
+    </qresource>
+</RCC>
